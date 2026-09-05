@@ -16,14 +16,14 @@
 
 | 篇 |
 |---|
-| [01 · 01 · 思科 AnyConnect：各平台安装、连接与更新](01-anyconnect-install.md) |
-| [02 · 02 · sing-box 订阅链接、导入链接、分享链接是什么，要不要"订阅转换"](02-singbox-subscription-links.md) |
-| [03 · 03 · 网页代理：ZeroOmega 扩展两步配好](03-web-proxy-extension.md) |
-| [04 · 04 · OpenVPN：下载 .ovpn 配置导入即连，路由器、NAS、Linux 都能用](04-openvpn-profile.md) |
-| [05 · 05 · 私网（Tailscale）：安装、登录本站控制服务器、选出口](05-tailscale-private-network.md) |
-| [06 · 06 · iOS 装不了应用怎么办](06-ios-app-store.md) |
-| [07 · 07 · Telegram 与 Discord 的安装](07-install-telegram-discord.md) |
-| [08 · 08 · 多设备一次配置、换手机不重来](08-multi-device.md) |
+| [01 · 思科 AnyConnect：各平台安装、连接与更新](01-anyconnect-install.md) |
+| [02 · sing-box 订阅链接、导入链接、分享链接是什么，要不要"订阅转换"](02-singbox-subscription-links.md) |
+| [03 · 网页代理：ZeroOmega 扩展两步配好](03-web-proxy-extension.md) |
+| [04 · OpenVPN：下载 .ovpn 配置导入即连，路由器、NAS、Linux 都能用](04-openvpn-profile.md) |
+| [05 · 私网（Tailscale）：安装、登录本站控制服务器、选出口](05-tailscale-private-network.md) |
+| [06 · iOS 装不了应用怎么办](06-ios-app-store.md) |
+| [07 · Telegram 与 Discord 的安装](07-install-telegram-discord.md) |
+| [08 · 多设备一次配置、换手机不重来](08-multi-device.md) |
 
 每篇文章同时发在本仓库的 Discussions 里，可以直接回复提问。
 
