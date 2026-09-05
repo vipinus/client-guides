@@ -1,5 +1,7 @@
 # 04 · OpenVPN：下载 .ovpn 配置导入即连，路由器、NAS、Linux 都能用
 
+> 网站版（更长、含繁体与英文）：https://7d24hrs.com/zh-CN/guides/openvpn-setup
+
 OpenVPN 是老牌开源协议，几乎所有系统、路由器固件、NAS 都自带客户端。蓝盾的配置文件已经带好账号密码和加密材料，导入就能连。手机电脑日常用 AnyConnect 或 sing-box 更省事；OpenVPN 的价值在**只认 OpenVPN 的地方**：OpenWrt 路由器、群晖 / 威联通 NAS、Linux 服务器、老设备。
 
 ## 三步

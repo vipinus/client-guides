@@ -1,5 +1,7 @@
 # 02 · sing-box 订阅链接、导入链接、分享链接是什么，要不要"订阅转换"
 
+> 网站版（更长、含繁体与英文）：https://7d24hrs.com/zh-CN/guides/singbox-subscription
+
 音乐盒（sing-box）的"订阅"就是一个 HTTPS 地址，客户端从那里下载一份完整配置——服务器、端口、凭据、分流规则都在里面，不用手填。蓝盾用户登录网站后，每个地区都有自己的二维码和配置地址。
 
 ## 三种链接
@@ -36,7 +38,7 @@
 - **到期后**返回 401，续费后原配置不用换。
 - **2026 年 9 月以前导入的**缺拒绝 IPv6 的规则，删掉重导。
 
-导入了连不上，见[排障 07](https://github.com/vipinus/troubleshooting-guides/blob/main/07-singbox-import-not-connecting.md)。
+导入了连不上，见[排障 07](https://github.com/vipinus/troubleshooting-guides/blob/main/04-singbox-import-not-connecting.md)。
 
 ## 常见问题
 
