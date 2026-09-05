@@ -1,6 +1,6 @@
 # 客户端安装与设置 · Client Guides
 
-把每种接入方式**装起来、连上**的一步步说明：思科 AnyConnect、sing-box（Hiddify）、OpenVPN、网页代理扩展。一篇一种，按平台给步骤。选哪种见 [五种接入方式怎么选](https://github.com/vipinus/network-guides/blob/main/02-choose-your-connection-method.md)，装好了连不上见 [排障](https://github.com/vipinus/troubleshooting-guides)。由 [蓝盾](https://7d24hrs.com) 团队维护，中文、通用。
+把每种接入方式**装起来、连上**的一步步说明：思科 AnyConnect、sing-box（Hiddify）、OpenVPN、网页代理扩展、私网 Tailscale。一篇一种，按平台给步骤。选哪种见 [五种接入方式怎么选](https://github.com/vipinus/network-guides/blob/main/02-choose-your-connection-method.md)，装好了连不上见 [排障](https://github.com/vipinus/troubleshooting-guides)。由 [蓝盾](https://7d24hrs.com) 团队维护，中文、通用。
 
 ## 长期福利：免费时长，一直有效
 
@@ -19,7 +19,8 @@
 | [01 · 思科 AnyConnect：各平台安装、连接与更新](01-anyconnect-install.md) |
 | [02 · sing-box 订阅链接、导入链接、分享链接是什么，怎么导入](02-singbox-subscription-links.md) |
 | [03 · 网页代理：ZeroOmega 扩展两步配好](03-web-proxy-extension.md) |
-| [04 · OpenVPN：下载 .ovpn 配置导入即连](04-openvpn-profile.md) |
+| [04 · OpenVPN：下载 .ovpn 配置导入即连，路由器、NAS、Linux 都能用](04-openvpn-profile.md) |
+| [05 · 私网（Tailscale）：安装、登录本站控制服务器、选出口](05-tailscale-private-network.md) |
 
 每篇文章同时发在本仓库的 Discussions 里，可以直接回复提问。
 
@@ -30,7 +31,7 @@
 | [huiguo-guides](https://github.com/vipinus/huiguo-guides) | 回国访问场景：看国内视频、政务网站、网银支付、音乐、游戏 |
 | [chuhai-guides](https://github.com/vipinus/chuhai-guides) | 出海访问场景：在国内用海外的办公、开发、学术、游戏、影音服务 |
 | [network-guides](https://github.com/vipinus/network-guides) | 网络原理与接入方式怎么选 |
-| [client-guides](https://github.com/vipinus/client-guides) | 客户端安装与设置：AnyConnect、sing-box/Hiddify、OpenVPN、网页代理 |
+| [client-guides](https://github.com/vipinus/client-guides) | 客户端安装与设置：AnyConnect、sing-box/Hiddify、OpenVPN、网页代理、私网 Tailscale |
 | [router-guides](https://github.com/vipinus/router-guides) | 路由器与家庭网络：分流、电视、刷固件、绑定 |
 | [troubleshooting-guides](https://github.com/vipinus/troubleshooting-guides) | 排障与安装：连不上、看不了、装不上 |
 
