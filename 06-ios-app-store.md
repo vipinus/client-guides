@@ -6,7 +6,7 @@ iPhone 上搜不到 Hiddify、Tailscale、Telegram，或者提示「此项目在
 
 App Store 按 Apple ID 的地区分商店，不同地区上架的应用不同。中国区商店没有 Hiddify 和 Tailscale，Telegram、Discord 也时有时无；Cisco Secure Client、OpenVPN Connect 在多数地区都有。这是上架差异，不是应用的问题，换个地区的账号就能装。
 
-本站的音乐盒（sing-box）和私网（Tailscale）在 iPhone 上都要走 App Store，所以这一步绕不开；安卓、Windows、macOS 的安装包本站直接提供，不受影响。
+本站的流量伪装（Hiddify）和私网（Tailscale）在 iPhone 上都要走 App Store，所以这一步绕不开；安卓、Windows、macOS 的安装包本站直接提供，不受影响。
 
 ## 方案一（推荐）：新注册一个非中国区 Apple ID
 
@@ -26,7 +26,7 @@ App Store 按 Apple ID 的地区分商店，不同地区上架的应用不同。
 
 ## 装好之后
 
-Hiddify：回本站音乐盒页面扫码或复制导入链接。Tailscale：先退出官方账号再按私网页面的步骤填本站的控制服务器地址。Telegram、Discord：进本站联络页扫码进群。
+Hiddify：回本站流量伪装页面扫码或复制导入链接。Tailscale：先退出官方账号再按私网页面的步骤填本站的控制服务器地址。Telegram、Discord：进本站联络页扫码进群。
 
 ## 常见问题
 
@@ -41,7 +41,7 @@ Hiddify：回本站音乐盒页面扫码或复制导入链接。Tailscale：先�
 ## 延伸阅读
 
 - [联络页：客户端下载卡与三个群](https://7d24hrs.com/zh-CN/contact)
-- [音乐盒 sing-box：扫码导入](https://7d24hrs.com/zh-CN/singbox)
+- [流量伪装 Hiddify：扫码导入](https://7d24hrs.com/zh-CN/singbox)
 - [私网 Tailscale：登录步骤](https://7d24hrs.com/zh-CN/mesh)
 - [怎么联系我们、怎么不失联](https://7d24hrs.com/zh-CN/guides/stay-in-touch)
 

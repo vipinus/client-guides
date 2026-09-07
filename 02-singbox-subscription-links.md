@@ -1,23 +1,23 @@
-# 02 · sing-box 订阅链接、导入链接、分享链接是什么，要不要"订阅转换"
+# 02 · Hiddify 订阅链接、导入链接、分享链接是什么，要不要"订阅转换"
 
 > 网站版（更长、含繁体与英文）：https://7d24hrs.com/zh-CN/guides/singbox-subscription
 
-音乐盒（sing-box）的"订阅"就是一个 HTTPS 地址，客户端从那里下载一份完整配置——服务器、端口、凭据、分流规则都在里面，不用手填。蓝盾用户登录网站后，每个地区都有自己的二维码和配置地址。
+流量伪装（Hiddify）的"订阅"就是一个 HTTPS 地址，客户端从那里下载一份完整配置——服务器、端口、凭据、分流规则都在里面，不用手填。蓝盾用户登录网站后，每个地区都有自己的二维码和配置地址。
 
 ## 三种链接
 
 | 链接 | 长什么样 | 给谁用 |
 |---|---|---|
-| 配置地址（订阅链接） | `https://…` | Hiddify、sing-box 官方 App、GUI.for.SingBox 直接认。配置里已含分流规则和拒绝 IPv6 的规则，不需要再套"订阅模板" |
+| 配置地址（订阅链接） | `https://…` | Hiddify 官方 App、GUI.for.SingBox 直接认。配置里已含分流规则和拒绝 IPv6 的规则，不需要再套"订阅模板" |
 | 导入链接（深链） | `sing-box://import-remote-profile?url=…` | 点一下唤起 App 自动添加。二维码里装的就是它 |
-| 分享链接 | `hysteria2://…` | 一行文本只描述一个节点，不带规则。给 NekoBox、Shadowrocket、Stash、Clash Meta 这类不读 sing-box JSON 的客户端 |
+| 分享链接 | `hysteria2://…` | 一行文本只描述一个节点，不带规则。给 NekoBox、Shadowrocket、Stash、Clash Meta 这类不读 Hiddify JSON 的客户端 |
 
 **订阅转换**：把一种格式转成另一种的第三方网站。蓝盾两种格式都直接给，**不需要转换**；把带凭据的链接交给转换站等于把账号交给第三方，别这么做。
 
 ## 手机：Hiddify 扫码或点击导入
 
 1. 装 Hiddify（安卓：网站下载页或 Google Play；iOS：App Store）。自带 sing-box 内核。
-2. 登录网站 → 音乐盒页面 → 点地区国旗，出现二维码。
+2. 登录网站 → 流量伪装页面 → 点地区国旗，出现二维码。
 3. 同一部手机：点"复制导入链接"，切到 Hiddify 它会提示从剪贴板添加。另一台设备：用 Hiddify 的"扫描二维码"。
 4. 点连接，首次允许 VPN 权限。要加地区就再点一个国旗，每个地区是一份独立配置。
 
@@ -38,11 +38,11 @@
 - **到期后**返回 401，续费后原配置不用换。
 - **2026 年 9 月以前导入的**缺拒绝 IPv6 的规则，删掉重导。
 
-导入了连不上，见[排障 07](https://github.com/vipinus/troubleshooting-guides/blob/main/04-singbox-import-not-connecting.md)。
+导入了连不上，见[排障 07](https://github.com/vipinus/troubleshooting-guides/blob/main/04-Hiddify-import-not-connecting.md)。
 
 ## 常见问题
 
-**sing-box 订阅和 Clash 订阅有什么区别？** 格式不同（JSON vs YAML），客户端互不认对方的订阅，但节点本身通用。Clash Meta 用分享链接。
+**Hiddify 订阅和 Clash 订阅有什么区别？** 格式不同（JSON vs YAML），客户端互不认对方的订阅，但节点本身通用。Clash Meta 用分享链接。
 
 **一份配置能包含所有地区吗？** 目前每个地区一份，在客户端配置列表里切换。这样某个地区换地址只影响它自己。
 
