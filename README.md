@@ -17,7 +17,7 @@
 | 篇 |
 |---|
 | [01 · 思科 AnyConnect：各平台安装、连接与更新](01-anyconnect-install.md) |
-| [02 · Hiddify 订阅链接、导入链接、分享链接是什么，要不要"订阅转换"](02-Hiddify-subscription-links.md) |
+| [02 · Hiddify 订阅链接、导入链接、分享链接是什么，要不要"订阅转换"](02-singbox-subscription-links.md) |
 | [03 · 网页代理：ZeroOmega 扩展两步配好](03-web-proxy-extension.md) |
 | [04 · OpenVPN：下载 .ovpn 配置导入即连，路由器、NAS、Linux 都能用](04-openvpn-profile.md) |
 | [05 · 私网（Tailscale）：安装、登录本站控制服务器、选出口](05-tailscale-private-network.md) |

@@ -38,7 +38,7 @@
 - **到期后**返回 401，续费后原配置不用换。
 - **2026 年 9 月以前导入的**缺拒绝 IPv6 的规则，删掉重导。
 
-导入了连不上，见[排障 07](https://github.com/vipinus/troubleshooting-guides/blob/main/04-Hiddify-import-not-connecting.md)。
+导入了连不上，见[排障 07](https://github.com/vipinus/troubleshooting-guides/blob/main/04-singbox-import-not-connecting.md)。
 
 ## 常见问题
 
