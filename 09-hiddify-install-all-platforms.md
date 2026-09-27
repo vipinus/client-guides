@@ -30,10 +30,10 @@
 1. 从伪装页下载区下载 .dmg，打开后把 Hiddify 拖进「应用程序」。
 2. 在「访达」→「应用程序」里按住 Control 点 Hiddify 图标，选「打开」，在对话框里再点一次「打开」。
 3. 还是打不开：「系统设置」→「隐私与安全性」，在「安全性」一栏点「仍要打开」，输入密码确认。
-4. 提示「已损坏，无法打开」：文件并没有坏，是系统在拦没有签名的 App。打开「终端」，执行下面这条命令，再打开 Hiddify：
+4. 提示「已损坏，无法打开」：文件并没有坏，是系统在拦没有签名的 App。打开「终端」，执行下面这条命令，回车后输入登录密码，再打开 Hiddify：
 
 ```bash
-xattr -dr com.apple.quarantine /Applications/Hiddify.app
+sudo xattr -dr com.apple.quarantine /Applications/Hiddify.app
 ```
 
 这条命令只移除下载来源的隔离标记，只对这一个 App 生效。**不要**用 `sudo spctl --master-disable` 整机关掉 Gatekeeper。
