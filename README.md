@@ -1,6 +1,6 @@
 # 客户端安装与设置 · Client Guides
 
-把每种接入方式**装起来、连上**的一步步说明：思科 AnyConnect、Hiddify、网页代理扩展、OpenVPN、私网 Tailscale，以及 iOS 装不了应用、Telegram / Discord 安装、多设备一次配置。选哪种见 [选择哪种连接方式](https://github.com/vipinus/network-guides/blob/main/02-choose-your-connection-method.md)，装好了连不上见 [排障](https://github.com/vipinus/troubleshooting-guides)。由 [蓝盾](https://7d24hrs.com) 团队维护，中文、通用。
+把每种接入方式**装起来、连上**的一步步说明：思科 AnyConnect、Hiddify、网页代理扩展、OpenVPN、私网 Tailscale，以及 iOS 装不了应用、Telegram / Discord 安装、多设备一次配置。选哪种见 [各种连接方式适用的场景](https://github.com/vipinus/network-guides/blob/main/02-choose-your-connection-method.md)，装好了连不上见 [排障](https://github.com/vipinus/troubleshooting-guides)。由 [蓝盾](https://7d24hrs.com) 团队维护，中文、通用。
 
 ## 长期福利：免费时长，一直有效
 
