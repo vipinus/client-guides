@@ -2,7 +2,7 @@
 
 > 网站版（更长、含繁体与英文）：https://7d24hrs.com/zh-CN/guides/tailscale-mesh
 
-私网栏目用的是 Tailscale（基于 WireGuard 的组网工具），蓝诺自己运行控制服务器，你用**本站账号**登录，与 Tailscale 官方账号无关。登录一次就一直在线，出口地区在菜单里随时换。它和 VPN 的区别、适合谁，见 [网络指南 05](https://github.com/vipinus/network-guides/blob/main/03-private-network-vs-vpn.md)。
+私网栏目用的是 Tailscale（基于 WireGuard 的组网工具），蓝盾自己运行控制服务器，你用**本站账号**登录，与 Tailscale 官方账号无关。登录一次就一直在线，出口地区在菜单里随时换。它和 VPN 的区别、适合谁，见 [网络指南 05](https://github.com/vipinus/network-guides/blob/main/03-private-network-vs-vpn.md)。
 
 ## 安装
 
@@ -37,4 +37,4 @@
 - 校园网 / 公司网限制 UDP：WireGuard 走 UDP，只能靠中继，很慢；换 AnyConnect。
 
 ---
-由 [蓝诺](https://7d24hrs.com) 团队整理 · 问题来 [Telegram 群](https://t.me/+NWJN_9yITj9kOWFh) · 注册领 24 小时免费试用，邀请朋友每位送 30 天，长期有效
+由 [蓝盾](https://7d24hrs.com) 团队整理 · 问题来 [Telegram 群](https://t.me/+NWJN_9yITj9kOWFh) · 注册领 24 小时免费试用，邀请朋友每位送 30 天，长期有效
