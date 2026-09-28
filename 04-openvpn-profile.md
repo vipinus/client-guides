@@ -2,7 +2,7 @@
 
 > 网站版（更长、含繁体与英文）：https://7d24hrs.com/zh-CN/guides/openvpn-setup
 
-OpenVPN 是老牌开源协议，几乎所有系统、路由器固件、NAS 都自带客户端。蓝盾的配置文件已经带好账号密码和加密材料，导入就能连。手机电脑日常用 AnyConnect 或 Hiddify 更省事；OpenVPN 的价值在**只认 OpenVPN 的地方**：OpenWrt 路由器、群晖 / 威联通 NAS、Linux 服务器、老设备。
+OpenVPN 是老牌开源协议，几乎所有系统、路由器固件、NAS 都自带客户端。蓝诺的配置文件已经带好账号密码和加密材料，导入就能连。手机电脑日常用 AnyConnect 或 Hiddify 更省事；OpenVPN 的价值在**只认 OpenVPN 的地方**：OpenWrt 路由器、群晖 / 威联通 NAS、Linux 服务器、老设备。
 
 ## 三步
 
@@ -36,4 +36,4 @@ OpenVPN 是老牌开源协议，几乎所有系统、路由器固件、NAS 都�
 配置文件里带账号密码，等于账号本身，别外传；泄露了在网站改密码，旧文件立刻失效。线路的握手本身也加了密，没有配置里的密钥连握手都发不起，服务器对扫描器不可见。
 
 ---
-由 [蓝盾](https://7d24hrs.com) 团队整理 · 问题来 [Telegram 群](https://t.me/+NWJN_9yITj9kOWFh) · 注册领 24 小时免费试用，邀请朋友每位送 30 天，长期有效
+由 [蓝诺](https://7d24hrs.com) 团队整理 · 问题来 [Telegram 群](https://t.me/+NWJN_9yITj9kOWFh) · 注册领 24 小时免费试用，邀请朋友每位送 30 天，长期有效
