@@ -18,7 +18,7 @@ Dropbox、Telegram 桌面版、Steam、网盘客户端、开发工具这类独�
 ## 推荐做法：流量伪装整机接管
 
 1. 按 [09 · 伪装（Hiddify）各平台安装](09-hiddify-install-all-platforms.md) 装好 Hiddify，按 [02](02-singbox-subscription-links.md) 导入配置。
-2. 用「VPN」模式连接（默认就是）。Windows 首次连接要管理员权限；杀毒软件误报只对安装目录加排除项。
+2. 用「VPN」模式连接（默认就是）。Windows 首次连接要管理员权限。
 3. 软件里的代理改回「无代理」：Dropbox 在「首选项 → 网络 → 代理」选「无代理」或「自动检测」；Telegram 桌面版在「设置 → 高级 → 连接类型」选「不使用代理」。其他软件有代理选项的一律关掉。
 4. 验证：Dropbox 托盘图标显示「已是最新」、开始同步；浏览器打开显示 IP 的网页，出口在你选的地区。
 

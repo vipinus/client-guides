@@ -12,18 +12,13 @@
 | 安卓 | .apk，分 ARM64 和 x86-64 两个 | 伪装页下载区，或 Google Play |
 | iPhone / iPad | App Store 的 Hiddify Proxy & VPN | App Store，需要非中国区 Apple ID |
 
-伪装页的下载区会按你当前的系统自动推荐对应的包，其他系统的包也列在下面。每一行旁边还有「官方网站」图标，指向 Hiddify 官方发布页，可以对照版本和校验值。桌面三个系统（Windows、macOS、Linux）还有视频教程。
+伪装页的下载区会按你当前的系统自动推荐对应的包，其他系统的包也列在下面。每一行旁边还有「官方网站」图标，指向 Hiddify 官方发布页，可以对照版本。桌面三个系统（Windows、macOS、Linux）还有视频教程。
 
-桌面安装包是 Hiddify 官方发布包的原样镜像，不改动、不重新打包。放行之前可以先自己核对：算一下 SHA-256 和官方发布页对比，或者上传 VirusTotal 看看，方法见 [排障 06](https://github.com/vipinus/troubleshooting-guides/blob/main/06-antivirus-false-positive.md)。
+桌面安装包是 Hiddify 官方发布包的原样镜像，不改动、不重新打包。放行之前可以先自己核对：把安装包上传 VirusTotal 看看，方法见 [排障 06](https://github.com/vipinus/troubleshooting-guides/blob/main/06-antivirus-false-positive.md)。
 
 ## Windows
 
-1. 从伪装页下载区下载安装程序，双击安装。
-2. 运行时弹出蓝色的「Windows 已保护你的电脑」：点左侧「更多信息」，再点「仍要运行」。
-3. 装完程序不见了，是被 Windows 安全中心隔离了：「Windows 安全中心」→「病毒和威胁防护」→「保护历史记录」，找到对应的那条记录，选「允许」或「还原」。
-4. 防止再被删：「病毒和威胁防护设置」→「管理设置」→「排除项」→「添加排除项」→「文件夹」，选 Hiddify 的安装目录。**只排除这一个目录**，不要排除整个 C 盘或「下载」文件夹，也不要关实时保护。
-
-被报毒的原因是安装包没有代码签名，加上这类客户端要建虚拟网卡、改路由，行为和木马类似，是误报。360、火绒等第三方杀软的放行位置见 [排障 06](https://github.com/vipinus/troubleshooting-guides/blob/main/06-antivirus-false-positive.md)。
+1. 从伪装页下载区下载安装程序，双击安装。（目前实测 Windows 安全中心不会报毒；万一你装的杀毒软件报了，见 [排障 06](https://github.com/vipinus/troubleshooting-guides/blob/main/06-antivirus-false-positive.md) 最后的常见问题。）
 
 ## macOS
 
@@ -88,9 +83,8 @@ echo /usr/share/hiddify/lib | sudo tee /etc/ld.so.conf.d/hiddify.conf && sudo ld
 
 ## 常见问题
 
-**安装包是你们改过的吗？** 不是。桌面安装包是 Hiddify 官方发布包的原样镜像，伪装页每一行都有指向官方发布页的链接，可以自己比对校验值。
+**安装包是你们改过的吗？** 不是。桌面安装包是 Hiddify 官方发布包的原样镜像，伪装页每一行都有指向官方发布页的链接，可以自己对照版本，也可以上传 VirusTotal 复核。
 
-**报毒了，要不要关掉杀毒软件再装？** 不要。先核对来源，再只给 Hiddify 的安装目录加排除项；关实时保护等于整机不设防。
 
 **Mac 上已经执行了 xattr 命令，还是连不上？** 多半是「网络扩展」没授权，按上面 macOS 那一节去系统设置里打开 Hiddify 的开关。
 
