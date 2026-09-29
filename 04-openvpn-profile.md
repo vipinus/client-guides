@@ -27,9 +27,16 @@ OpenVPN 是老牌开源协议，几乎所有系统、路由器固件、NAS 都�
 | 日志关键词 / 表现 | 原因 | 做法 |
 |---|---|---|
 | AUTH_FAILED | 账号密码错或到期 | 登录网站看有效期；改过密码要重新下载配置 |
-| TLS handshake failed / key negotiation failed | 到服务器的 UDP 不通 | 换地区、换网络；校园网限 UDP 就改用 AnyConnect |
+| 先 UDP 超时，随后改用 TCP 连上 | 当前网络限制了 UDP，自动走了 TCP 兜底 | 能用但会慢；嫌慢换网络或改用 AnyConnect |
+| UDP 和 TCP 都报 TLS handshake failed / key negotiation failed | 到服务器的网络不通 | 换地区、换网络 |
 | 导入报错 | 客户端太旧（OpenVPN 2.5 以前） | 更新客户端 |
 | 连着突然断 | 账号到期，服务器断开 | 续费后重连，配置不用换 |
+
+## 走 UDP 还是 TCP
+
+两种都有，不用自己选。配置里 UDP 排在前面，客户端先试 UDP；UDP 被限或连不上时，几秒后自动改走 TCP。UDP 延迟低、速度快；TCP 只是保底，跨境会明显变慢。常年限制 UDP 的网络（部分校园网、公司网）建议直接用 AnyConnect。
+
+> 2026 年 9 月 15 日以前下载的配置只有 UDP，想要自动切换请重新下载。
 
 ## 安全
 
