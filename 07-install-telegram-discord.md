@@ -6,7 +6,7 @@
 
 | 平台 | 怎么装 |
 |---|---|
-| Windows / macOS / Linux / Android | [本站联络页](https://7d24hrs.com/contact)分发官方同版本安装包（安卓是官方完整 APK，不需要 Google Play）；也可去官网 <https://desktop.telegram.org> 或 Google Play |
+| Windows / macOS / Linux / Android | [本站联络页](https://www.leotun.com/contact)分发官方同版本安装包（安卓是官方完整 APK，不需要 Google Play）；也可去官网 <https://desktop.telegram.org> 或 Google Play |
 | iOS | 只能 App Store，商店地区问题见[上一篇](https://github.com/vipinus/client-guides/blob/main/06-ios-app-store.md) |
 
 注册需要一个能收短信的手机号，之后可以设置用户名，别人不需要知道你的号码。
@@ -25,4 +25,4 @@
 - 遇到装不上、闪退，把系统版本和机型告诉客服，多数是机型或版本不匹配。
 
 ---
-由 [蓝盾](https://7d24hrs.com) 团队整理 · 有问题来 [Telegram 群](https://t.me/+NWJN_9yITj9kOWFh) · 注册领 24 小时免费试用，邀请朋友每位送 30 天，长期有效
+由 [蓝盾](https://www.leotun.com) 团队整理 · 有问题来 [Telegram 群](https://t.me/+NWJN_9yITj9kOWFh) · 注册领 24 小时免费试用，邀请朋友每位送 30 天，长期有效

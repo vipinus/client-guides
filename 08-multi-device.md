@@ -41,12 +41,12 @@
 
 ## 延伸阅读
 
-- [私网页：下载与登录步骤](https://7d24hrs.com/zh-CN/mesh)
-- [私网（Tailscale）是什么](https://7d24hrs.com/zh-CN/guides/tailscale-mesh)
-- [在国外看国内家里的监控和 NAS](https://7d24hrs.com/zh-CN/guides/home-camera)
-- [路由器固件能做什么](https://7d24hrs.com/zh-CN/guides/router-firmware)
+- [私网页：下载与登录步骤](https://www.leotun.com/zh-CN/mesh)
+- [私网（Tailscale）是什么](https://www.leotun.com/zh-CN/guides/tailscale-mesh)
+- [在国外看国内家里的监控和 NAS](https://www.leotun.com/zh-CN/guides/home-camera)
+- [路由器固件能做什么](https://www.leotun.com/zh-CN/guides/router-firmware)
 
-本文网站版（含繁体与英文）：https://7d24hrs.com/zh-CN/guides/multi-device
+本文网站版（含繁体与英文）：https://www.leotun.com/zh-CN/guides/multi-device
 
 ---
-由 [蓝盾](https://7d24hrs.com) 团队整理 · 问题来 [Telegram 群](https://t.me/+NWJN_9yITj9kOWFh) · 注册领 24 小时免费试用，邀请朋友每位送 30 天，长期有效
+由 [蓝盾](https://www.leotun.com) 团队整理 · 问题来 [Telegram 群](https://t.me/+NWJN_9yITj9kOWFh) · 注册领 24 小时免费试用，邀请朋友每位送 30 天，长期有效

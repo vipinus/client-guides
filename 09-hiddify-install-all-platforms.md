@@ -96,11 +96,11 @@ echo /usr/share/hiddify/lib | sudo tee /etc/ld.so.conf.d/hiddify.conf && sudo ld
 
 ## 延伸阅读
 
-- [伪装页：客户端下载与各地区二维码](https://7d24hrs.com/zh-CN/singbox)
-- [Hiddify 订阅链接怎么导入](https://7d24hrs.com/zh-CN/guides/singbox-subscription)
-- [客户端被报毒 / Mac 提示已损坏：先验证，再放行](https://7d24hrs.com/zh-CN/guides/antivirus-false-positive)
-- [macOS「网络扩展」授权是什么、怎么放行](https://7d24hrs.com/zh-CN/guides/macos-network-extension)
-- [iOS 装不了应用怎么办](https://7d24hrs.com/zh-CN/guides/ios-app-store)
+- [伪装页：客户端下载与各地区二维码](https://www.leotun.com/zh-CN/singbox)
+- [Hiddify 订阅链接怎么导入](https://www.leotun.com/zh-CN/guides/singbox-subscription)
+- [客户端被报毒 / Mac 提示已损坏：先验证，再放行](https://www.leotun.com/zh-CN/guides/antivirus-false-positive)
+- [macOS「网络扩展」授权是什么、怎么放行](https://www.leotun.com/zh-CN/guides/macos-network-extension)
+- [iOS 装不了应用怎么办](https://www.leotun.com/zh-CN/guides/ios-app-store)
 
 ---
-由 [蓝盾](https://7d24hrs.com) 团队整理 · 问题来 [Telegram 群](https://t.me/+NWJN_9yITj9kOWFh) · 注册领 24 小时免费试用，邀请朋友每位送 30 天，长期有效
+由 [蓝盾](https://www.leotun.com) 团队整理 · 问题来 [Telegram 群](https://t.me/+NWJN_9yITj9kOWFh) · 注册领 24 小时免费试用，邀请朋友每位送 30 天，长期有效

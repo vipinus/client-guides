@@ -1,6 +1,6 @@
 # 01 · 思科 AnyConnect：各平台安装、连接与更新
 
-> 网站版（更长、含繁体与英文）：https://7d24hrs.com/zh-CN/guides/anyconnect-china
+> 网站版（更长、含繁体与英文）：https://www.leotun.com/zh-CN/guides/anyconnect-china
 
 AnyConnect 是思科的企业 VPN 客户端，现在的正式名字叫 **Cisco Secure Client**，用法没变。不需要证书文件、不需要导入配置，填地址和账号密码就能连。它在中国能不能用、连不上怎么换，见 [出海指南 02](https://github.com/vipinus/chuhai-guides/blob/main/02-anyconnect-in-china.md)。
 
@@ -8,7 +8,7 @@ AnyConnect 是思科的企业 VPN 客户端，现在的正式名字叫 **Cisco S
 
 | 平台 | 装哪个 | 从哪装 |
 |---|---|---|
-| Windows 10 及以上 | Cisco Secure Client 5.x | [网站思科页面](https://7d24hrs.com/anyconnect) |
+| Windows 10 及以上 | Cisco Secure Client 5.x | [网站思科页面](https://www.leotun.com/anyconnect) |
 | Windows 7 / 8 | AnyConnect 4.9（最后支持它们的版本，不再更新） | 同上 |
 | macOS | Cisco Secure Client 5.x | 同上 |
 | iOS | Cisco Secure Client | App Store；商店搜不到就装开源的 OpenConnect，协议相同 |
@@ -37,4 +37,4 @@ Windows 上还有开源的 OpenConnect-GUI 可选，账号通用。
 | Connection attempt has failed | 这个地址暂时不可达，换地区 |
 
 ---
-由 [蓝盾](https://7d24hrs.com) 团队整理 · 问题来 [Telegram 群](https://t.me/+NWJN_9yITj9kOWFh) · 注册领 24 小时免费试用，邀请朋友每位送 30 天，长期有效
+由 [蓝盾](https://www.leotun.com) 团队整理 · 问题来 [Telegram 群](https://t.me/+NWJN_9yITj9kOWFh) · 注册领 24 小时免费试用，邀请朋友每位送 30 天，长期有效

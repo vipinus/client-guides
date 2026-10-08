@@ -40,12 +40,12 @@ Hiddify：回本站流量伪装页面扫码或复制导入链接。Tailscale：�
 
 ## 延伸阅读
 
-- [联络页：客户端下载卡与三个群](https://7d24hrs.com/zh-CN/contact)
-- [流量伪装 Hiddify：扫码导入](https://7d24hrs.com/zh-CN/singbox)
-- [私网 Tailscale：登录步骤](https://7d24hrs.com/zh-CN/mesh)
-- [怎么联系我们、怎么不失联](https://7d24hrs.com/zh-CN/guides/stay-in-touch)
+- [联络页：客户端下载卡与三个群](https://www.leotun.com/zh-CN/contact)
+- [流量伪装 Hiddify：扫码导入](https://www.leotun.com/zh-CN/singbox)
+- [私网 Tailscale：登录步骤](https://www.leotun.com/zh-CN/mesh)
+- [怎么联系我们、怎么不失联](https://www.leotun.com/zh-CN/guides/stay-in-touch)
 
-本文网站版（含繁体与英文）：https://7d24hrs.com/zh-CN/guides/ios-app-store
+本文网站版（含繁体与英文）：https://www.leotun.com/zh-CN/guides/ios-app-store
 
 ---
-由 [蓝盾](https://7d24hrs.com) 团队整理 · 问题来 [Telegram 群](https://t.me/+NWJN_9yITj9kOWFh) · 注册领 24 小时免费试用，邀请朋友每位送 30 天，长期有效
+由 [蓝盾](https://www.leotun.com) 团队整理 · 问题来 [Telegram 群](https://t.me/+NWJN_9yITj9kOWFh) · 注册领 24 小时免费试用，邀请朋友每位送 30 天，长期有效

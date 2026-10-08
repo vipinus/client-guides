@@ -1,6 +1,6 @@
 # 10 · Dropbox 等软件要填 HTTP / SOCKS 代理怎么办
 
-> 网站版（更长、含繁体与英文）：https://7d24hrs.com/zh-CN/guides/app-proxy
+> 网站版（更长、含繁体与英文）：https://www.leotun.com/zh-CN/guides/app-proxy
 
 **先说现状：代理必须加密。** 不加密的代理（普通 HTTP、SOCKS4、SOCKS5）在国内网络上会被识别和干扰，连一会儿就变慢或断开，账号密码还是明文传输。能长期稳定用的只有加密连接，所以本站的网页代理只有加密这一种，**不提供 HTTP / SOCKS5 地址**。
 
@@ -52,4 +52,4 @@ Dropbox、Telegram 桌面版、Steam、网盘客户端、开发工具这类独�
 **不用流量伪装行不行？** 行，思科、私网、专网也是整机接管，软件同样设「无代理」。流量伪装的好处是自带分流、丢包多的网络上更快。
 
 ---
-由 [蓝盾](https://7d24hrs.com) 团队整理 · 问题来 [Telegram 群](https://t.me/+NWJN_9yITj9kOWFh) · 注册领 24 小时免费试用，邀请朋友每位送 30 天，长期有效
+由 [蓝盾](https://www.leotun.com) 团队整理 · 问题来 [Telegram 群](https://t.me/+NWJN_9yITj9kOWFh) · 注册领 24 小时免费试用，邀请朋友每位送 30 天，长期有效

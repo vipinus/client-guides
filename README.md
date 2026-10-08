@@ -2,7 +2,7 @@
 
 > **本库已于 2026-10-04 合并到 [蓝盾知识库 guides-zh-CN](https://github.com/vipinus/guides-zh-CN/tree/main/client)**，以后的更新都在新库；这里的内容不再维护。其他语言：[繁體中文](https://github.com/vipinus/guides-zh-TW/tree/main/client) · [English](https://github.com/vipinus/guides-en/tree/main/client)
 
-把每种接入方式**装起来、连上**的一步步说明：思科 AnyConnect、Hiddify、网页代理扩展、OpenVPN、私网 Tailscale，以及 iOS 装不了应用、Telegram / Discord 安装、多设备一次配置、Dropbox 等软件要填代理怎么办。选哪种见 [各种连接方式适用的场景](https://github.com/vipinus/network-guides/blob/main/02-choose-your-connection-method.md)，装好了连不上见 [排障](https://github.com/vipinus/troubleshooting-guides)。由 [蓝盾](https://7d24hrs.com) 团队维护，中文、通用。
+把每种接入方式**装起来、连上**的一步步说明：思科 AnyConnect、Hiddify、网页代理扩展、OpenVPN、私网 Tailscale，以及 iOS 装不了应用、Telegram / Discord 安装、多设备一次配置、Dropbox 等软件要填代理怎么办。选哪种见 [各种连接方式适用的场景](https://github.com/vipinus/network-guides/blob/main/02-choose-your-connection-method.md)，装好了连不上见 [排障](https://github.com/vipinus/troubleshooting-guides)。由 [蓝盾](https://www.leotun.com) 团队维护，中文、通用。
 
 ## 长期福利：免费时长，一直有效
 
@@ -12,7 +12,7 @@
 | 邀请朋友注册并首次付费 | 你的有效期 +30 天（家庭档 +15 天、企业档 +7.5 天），每位朋友一次，人数不限 |
 | 过期用户回归 | 到期后自动发一封带免登录领取按钮的邮件，7 天内有效、只能点一次 |
 
-网站：<https://7d24hrs.com> · 进群问客服：<https://t.me/+NWJN_9yITj9kOWFh>
+网站：<https://www.leotun.com> · 进群问客服：<https://t.me/+NWJN_9yITj9kOWFh>
 
 ## 目录
 

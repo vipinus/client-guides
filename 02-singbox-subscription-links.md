@@ -1,6 +1,6 @@
 # 02 · Hiddify 订阅链接、导入链接、分享链接是什么，要不要"订阅转换"
 
-> 网站版（更长、含繁体与英文）：https://7d24hrs.com/zh-CN/guides/singbox-subscription
+> 网站版（更长、含繁体与英文）：https://www.leotun.com/zh-CN/guides/singbox-subscription
 
 流量伪装（Hiddify）的"订阅"就是一个 HTTPS 地址，客户端从那里下载一份完整配置——服务器、端口、凭据、分流规则都在里面，不用手填。蓝盾用户登录网站后，每个地区都有自己的二维码和配置地址。
 
@@ -49,4 +49,4 @@
 **二维码能发给家人吗？** 二维码含你的账号凭据，发给谁就是把账号给谁。家人共用允许（按档位个人 2 台、家庭 4 台、企业 8 台同时在线），别发到公开的地方；泄露了改密码即失效。
 
 ---
-由 [蓝盾](https://7d24hrs.com) 团队整理 · 问题来 [Telegram 群](https://t.me/+NWJN_9yITj9kOWFh) · 注册领 24 小时免费试用，邀请朋友每位送 30 天，长期有效
+由 [蓝盾](https://www.leotun.com) 团队整理 · 问题来 [Telegram 群](https://t.me/+NWJN_9yITj9kOWFh) · 注册领 24 小时免费试用，邀请朋友每位送 30 天，长期有效

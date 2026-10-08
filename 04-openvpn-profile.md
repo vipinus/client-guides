@@ -1,12 +1,12 @@
 # 04 · OpenVPN：下载 .ovpn 配置导入即连，路由器、NAS、Linux 都能用
 
-> 网站版（更长、含繁体与英文）：https://7d24hrs.com/zh-CN/guides/openvpn-setup
+> 网站版（更长、含繁体与英文）：https://www.leotun.com/zh-CN/guides/openvpn-setup
 
 OpenVPN 是老牌开源协议，几乎所有系统、路由器固件、NAS 都自带客户端。蓝盾的配置文件已经带好账号密码和加密材料，导入就能连。手机电脑日常用 AnyConnect 或 Hiddify 更省事；OpenVPN 的价值在**只认 OpenVPN 的地方**：OpenWrt 路由器、群晖 / 威联通 NAS、Linux 服务器、老设备。
 
 ## 三步
 
-1. 在[网站专网页面](https://7d24hrs.com/openvpn)的表里装你系统的客户端（各平台都有官方 OpenVPN Connect；Windows 也可用 OpenVPN GUI，macOS 可用 Tunnelblick）。
+1. 在[网站专网页面](https://www.leotun.com/openvpn)的表里装你系统的客户端（各平台都有官方 OpenVPN Connect；Windows 也可用 OpenVPN GUI，macOS 可用 Tunnelblick）。
 2. 登录后**点地区国旗**下载该地区的 .ovpn。一个地区一个文件。
 3. 客户端里打开这个文件，连接。
 
@@ -43,4 +43,4 @@ OpenVPN 是老牌开源协议，几乎所有系统、路由器固件、NAS 都�
 配置文件里带账号密码，等于账号本身，别外传；泄露了在网站改密码，旧文件立刻失效。线路的握手本身也加了密，没有配置里的密钥连握手都发不起，服务器对扫描器不可见。
 
 ---
-由 [蓝盾](https://7d24hrs.com) 团队整理 · 问题来 [Telegram 群](https://t.me/+NWJN_9yITj9kOWFh) · 注册领 24 小时免费试用，邀请朋友每位送 30 天，长期有效
+由 [蓝盾](https://www.leotun.com) 团队整理 · 问题来 [Telegram 群](https://t.me/+NWJN_9yITj9kOWFh) · 注册领 24 小时免费试用，邀请朋友每位送 30 天，长期有效
